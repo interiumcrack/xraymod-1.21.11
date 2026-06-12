@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.xraymod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockStateRenderMixin",
+    "XRayBlockRenderingMixin",
+    "AntiXRayBypassMixin"
+  ],
+  "client": [],
+  "server": []
+}
