@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "xraymod",
+  "version": "${version}",
+  "name": "XRay Mod",
+  "description": "Advanced X-Ray mod with anti-xray bypass for Minecraft 1.21.11",
+  "authors": [
+    "interiumcrack"
+  ],
+  "contact": {
+    "homepage": "https://github.com/interiumcrack/xraymod-1.21.11"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.xraymod.XRayMod"
+    ]
+  },
+  "mixins": [
+    "xraymod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.11",
+    "java": ">=17"
+  }
+}
